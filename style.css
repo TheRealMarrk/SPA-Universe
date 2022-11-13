@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: var(--tx-color);
+  background-position: 0%;
+  background-size: cover;
+  background-color: rgb(4, 4, 4);
+  background-repeat: no-repeat;
+}
+
+:root {
+  font-size: 62.5%;
+  --tx-color: #E1E1E6;
+}
+
+header {
+  display: flex;
+
+  align-items: center;
+  gap: 3.2rem;
+  padding: 4rem 7.2rem;
+  margin-bottom: 6.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--tx-color);
+  font-weight: 400;
+  font-size: 2.1rem;
+}
+
+.home {
+  background-image: url("/images/mountains.png");
+}
+
+.universe {
+  background-image: url("/images/mountains02.png");
+}
+
+.exploration {
+  background-image: url("/images/mountains03.png");
+}
+
+a:focus {
+  font-weight: 700;
+  outline: none;
+}
+
+main {
+  display: grid;
+
+  height: 50vh;
+  align-content: center;
+  justify-items: center;
+  gap: 2.4rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  margin-left: 7.2rem;
+}
+
+main h1 {
+  margin: 0;
+}
+
+main button {
+  padding: 12px 32px;
+  gap: .8rem;
+  border: .2rem solid #FFFFFF;
+  color: var(--tx-color);
+  border-radius: .5rem;
+  width: fit-content;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: none;
+  text-transform: uppercase;
+  transition: .2s;
+}
+
+main button:hover {
+  color: #02799D;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  width: 64.8rem;
+  margin-left: 7.2rem;
+}
